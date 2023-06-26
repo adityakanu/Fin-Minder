@@ -25,6 +25,7 @@
     padding: 30px;
     border-radius: 6px;
     background: #FFF;
+    box-shadow: 10px 10px 12px rgba(30, 1, 73, 0.804);
 }
 
 .form.signup {
