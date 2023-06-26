@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Finance Tracker </title>
+    <title> Fin-Minder </title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="login.css">
@@ -23,11 +23,11 @@
                 <header>Login</header>
                 <form action="#">
                     <div class="field input-field">
-                        <input type="email" placeholder="Email" class="input">
+                        <input id="login-email" type="email" placeholder="Email" class="input">
                     </div>
 
                     <div class="field input-field">
-                        <input type="password" placeholder="Password" class="password">
+                        <input id="login-pass" type="password" placeholder="Password" class="password">
                         <i class="bx bx-hide eye-icon"></i>
                     </div>
 
@@ -36,7 +36,7 @@
                     </div>
 
                     <div class="field button-field">
-                        <button class="e-btn">Login</button>
+                        <button id="submitLogin">Login</button>
                     </div>
                 </form>
 
@@ -52,11 +52,11 @@
 
                 <div class="field google">
                     <img src="../../images/google.svg" alt="" class="google-img">
-                    <button>Login with Google</button>
+                    <button id="GoogleLogin">Login with Google</button>
                 </div>
                 <div class="field github">
                     <img src="../../images/github.svg" alt="" class="github-img">
-                    <button>Login with Github</button>
+                    <button id="GithubLogin">Login with Github</button>
                 </div>
             </div>
 
@@ -105,7 +105,6 @@
 
     <!-- JavaScript -->
     <script src="login.js"></script>
-    <script src="config.js"></script>
     <!-- Firbase SDK -->
     <script type="module" src="firebaseLogin.js"></script>
 </body>
